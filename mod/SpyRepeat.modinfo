@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4d39f043-b098-48cb-a3c7-98d9cfe93f91" version="10">
+  <Properties>
+    <Name>间谍任务循环 / Spy Repeat</Name>
+    <Description>每名间谍独立开关，重复指定任务。晋升、调动、逃跑或目标失效时暂停。</Description>
+    <Authors>xuanda0201</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="SR_State"><File>SpyRepeat_State.lua</File></AddGameplayScripts>
+    <AddUserInterfaces id="SR_UI">
+      <Properties><Context>InGame</Context></Properties>
+      <File>SpyRepeat.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="SR_Files">
+      <File>SpyRepeat.lua</File><File>SpyRepeat_Common.lua</File><File>SpyRepeat_Presentation.lua</File>
+      <File>SpyRepeat_Briefing.lua</File><File>SpyRepeat_Chooser.lua</File><File>SpyRepeat_Overview.lua</File>
+    </ImportFiles>
+    <ReplaceUIScript id="SR_Briefing"><Properties><LoadOrder>250</LoadOrder><LuaContext>EspionagePopup</LuaContext><LuaReplace>SpyRepeat_Briefing.lua</LuaReplace></Properties></ReplaceUIScript>
+    <ReplaceUIScript id="SR_Chooser"><Properties><LoadOrder>250</LoadOrder><LuaContext>EspionageChooser</LuaContext><LuaReplace>SpyRepeat_Chooser.lua</LuaReplace></Properties></ReplaceUIScript>
+    <ReplaceUIScript id="SR_Overview"><Properties><LoadOrder>250</LoadOrder><LuaContext>EspionageOverview</LuaContext><LuaReplace>SpyRepeat_Overview.lua</LuaReplace></Properties></ReplaceUIScript>
+    <UpdateText id="SR_Text"><File>Text.xml</File></UpdateText>
+  </InGameActions>
+  <Files>
+    <File>SpyRepeat_State.lua</File>
+    <File>SpyRepeat_Common.lua</File>
+    <File>SpyRepeat.lua</File>
+    <File>SpyRepeat_Presentation.lua</File>
+    <File>SpyRepeat_Briefing.lua</File>
+    <File>SpyRepeat_Chooser.lua</File>
+    <File>SpyRepeat_Overview.lua</File>
+    <File>SpyRepeat.xml</File>
+    <File>Text.xml</File>
+    <File>LICENSE.txt</File>
+  </Files>
+</Mod>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="SpyRepeat">
+  <Container ID="UpdateAnchor" Size="1,1" ConsumeMouse="0"/>
+  <Container ID="SpyAction" Size="44,53" Hidden="1">
+    <Button ID="SpyToggle" Size="44,53" Texture="UnitPanel_ActionButton">
+      <Image ID="SpyToggleIcon" Anchor="C,C" Size="38,38" Texture="UnitActions"/>
+    </Button>
+  </Container>
+  <Instance Name="SRBriefingInstance">
+    <Container ID="SRRoot" Anchor="L,B" Offset="12,46" Size="616,72">
+      <Grid Size="parent,parent" Color="EspionagePopup_Deco" Alpha="0.10"/>
+      <Grid Anchor="C,T" Size="parent,1" Color="EspionagePopup_Deco" Alpha="0.35"/>
+      <Button ID="SRChoice" Offset="12,8" Size="592,26">
+        <Label ID="SRLabel" Anchor="L,C" Style="FontNormal16" Color="EspionagePopup_Header" String="LOC_SR_DRAFT_REPEAT"/>
+        <CheckBox ID="SRCheck" Anchor="R,C" Style="CheckBoxPopupControl" Size="22,22"/>
+      </Button>
+      <Label ID="SRHint" Offset="12,38" Style="FontNormal14" Color="EspionagePopup_Body" WrapWidth="592" String="LOC_SR_DRAFT_HELP"/>
+    </Container>
+  </Instance>
+  <Instance Name="SRCounterInstance">
+    <Grid ID="SRRoot" Anchor="L,T" Offset="6,132" Size="282,82" Texture="Controls_SubHeader3" SliceCorner="10,10" SliceSize="14,14" SliceTextureSize="34,34">
+      <Button ID="SRChoice" Offset="12,8" Size="258,26">
+        <Label ID="SRLabel" Anchor="L,C" Style="FontNormal16" String="LOC_SR_COUNTER_REPEAT"/>
+        <CheckBox ID="SRCheck" Anchor="R,C" Style="CheckBoxModsControl" Size="22,22"/>
+      </Button>
+      <Label ID="SRHint" Offset="12,38" Style="FontNormal14" WrapWidth="258" String="LOC_SR_COUNTER_HELP"/>
+    </Grid>
+  </Instance>
+  <Instance Name="SROverviewInstance">
+    <Container ID="SRRoot" Anchor="L,T" Offset="8,0" Size="473,62">
+      <Grid Size="parent,1" Color="EspionageOverview_EffectBlue" Alpha="0.3"/>
+      <Label ID="SRState" Offset="4,7" Style="FontNormal14" WrapWidth="310"/>
+      <GridButton ID="SRAction" Anchor="R,C" Offset="0,0" Size="150,32" Style="FontFlair14"><GridData Style="ButtonLightWeightGrid"/></GridButton>
+    </Container>
+  </Instance>
+</Context>

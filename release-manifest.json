@@ -1,0 +1,18 @@
+{
+  "version": "0.2.3",
+  "manifestVersion": 10,
+  "modId": "4d39f043-b098-48cb-a3c7-98d9cfe93f91",
+  "files": {
+    "LICENSE.txt": "cbfe2692a4761d93366f7429f834d70fdc5f6d52dfbf1fa314319e70b5346d0a",
+    "SpyRepeat.lua": "3d34d535d2ba101bf1522876f4d85b0e11e254261e6a1f9e4d52cbabbaae7d13",
+    "SpyRepeat.modinfo": "8436820ffd76b5f0de6fb79d8bc42dcb7814423f8de3c9a4ffcdd948736a2da5",
+    "SpyRepeat.xml": "70fdc7236f3efab2e9d05715302885e4c4ac07bd4602fc8068ec6eedba8f0083",
+    "SpyRepeat_Briefing.lua": "cf3f83ffef4106ff52564b19e8e144c2e0e29569520aebfc2129e9af1b29f4da",
+    "SpyRepeat_Chooser.lua": "cc192e86320f27c634f7d9e9b65324394382db8d91201a3f480531252cdc88de",
+    "SpyRepeat_Common.lua": "798b4a9ba3b4f01b59f51bade1392b794d816455371b18e0b2bc49f61c4c3727",
+    "SpyRepeat_Overview.lua": "b857038067dd0a3d8a212e04a6ce366b85a3b905cd95b359e9fa7d85dfb7650a",
+    "SpyRepeat_Presentation.lua": "87e3bcba33ddad8b8555e329d97c35208397880753c81323a30f15277453dd87",
+    "SpyRepeat_State.lua": "e56601fcf7900b4e416c15561ef699c84a3ad7feddf4d5b4a1dd5bb957cd127d",
+    "Text.xml": "fe54dea1b5b4a1c7a16aabeb1f8d902c95e3b7f11dbf0bc50c7bde9778b3168d"
+  }
+}

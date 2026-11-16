@@ -1,0 +1,10 @@
+{
+  "name": "spyrepeat-tests",
+  "version": "0.2.3",
+  "private": true,
+  "description": "Offline Lua regressions for SpyRepeat",
+  "license": "MIT",
+  "devDependencies": {
+    "fengari-node-cli": "0.1.0"
+  }
+}
