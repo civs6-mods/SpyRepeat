@@ -164,10 +164,10 @@
       <Text>Repeat this mission automatically</Text>
     </Row>
     <Row Tag="LOC_SR_DRAFT_HELP" Language="zh_Hans_CN">
-      <Text>接受任务后生效，仅在本城重复。[NEWLINE]晋升、逃跑或调动时暂停。</Text>
+      <Text>接受后在本城重复；晋升、逃跑或调动时暂停。</Text>
     </Row>
     <Row Tag="LOC_SR_DRAFT_HELP" Language="en_US">
-      <Text>Applies after accepting, in this city only.[NEWLINE]Pauses for promotion, escape or travel.</Text>
+      <Text>Repeats here after accepting; pauses for promotion, escape or travel.</Text>
     </Row>
     <Row Tag="LOC_SR_PREPARATION_HELP" Language="zh_Hans_CN">
       <Text>获取来源是准备行动，不能循环。请完成后选择正式任务。</Text>

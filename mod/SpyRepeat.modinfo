@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="4d39f043-b098-48cb-a3c7-98d9cfe93f91" version="10">
+<Mod id="4d39f043-b098-48cb-a3c7-98d9cfe93f91" version="11">
   <Properties>
     <Name>间谍任务循环 / Spy Repeat</Name>
     <Description>每名间谍独立开关，重复指定任务。晋升、调动、逃跑或目标失效时暂停。</Description>

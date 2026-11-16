@@ -526,4 +526,4 @@ end
 Events.LoadScreenClose.Add(StartUpdates);
 ContextPtr:SetInitHandler(StartUpdates);
 StartUpdates();
-print("[SpyRepeat] UI loaded (0.2.3 native action and chooser guidance)");
+print("[SpyRepeat] UI loaded (0.2.4 native action and chooser guidance)");

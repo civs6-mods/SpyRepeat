@@ -4,9 +4,9 @@
 
 Repeat manually assigned spy missions and counterspy duties without selecting the same task every few turns. Each spy has an independent switch. Repeat pauses when promotions, escape, travel or invalid targets need your attention.
 
-**0.2.3 · single-player preview.** The source is public; this mod has not been published to Steam Workshop. Uses Lua/XML and native game UI assets only, with no DLL changes.
+**0.2.4 · single-player preview.** The source is public; this mod has not been published to Steam Workshop. Uses Lua/XML and native game UI assets only, with no DLL changes.
 
-![Repeat option in the native mission briefing, Chinese UI](docs/screenshots/mission-briefing.png)
+![Repeat option in the native mission briefing, Chinese UI](docs/screenshots/briefing-divider-0.2.4.png)
 
 ## Install
 
@@ -45,7 +45,7 @@ python scripts/test.py
 python scripts/package.py
 ```
 
-The ZIP is written to `dist/SpyRepeat-0.2.3.zip`. `mod/` contains the installable files; `tests/` contains offline regressions; `docs/` contains rules and gameplay screenshots; `workshop/` contains unpublished listing drafts. GitHub Actions runs verification, tests and packaging. Update the release manifest hashes when intentionally changing runtime files for a new version.
+The ZIP is written to `dist/SpyRepeat-0.2.4.zip`. `mod/` contains the installable files; `tests/` contains offline regressions; `docs/` contains rules and gameplay screenshots; `workshop/` contains unpublished listing drafts. GitHub Actions runs verification, tests and packaging. Update the release manifest hashes when intentionally changing runtime files for a new version.
 
 ## Contributing and license
 

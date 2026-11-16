@@ -8,8 +8,7 @@
   </Container>
   <Instance Name="SRBriefingInstance">
     <Container ID="SRRoot" Anchor="L,B" Offset="12,46" Size="616,72">
-      <Grid Size="parent,parent" Color="EspionagePopup_Deco" Alpha="0.10"/>
-      <Grid Anchor="C,T" Size="parent,1" Color="EspionagePopup_Deco" Alpha="0.35"/>
+      <Box ID="SRDivider" Anchor="L,T" Offset="12,0" Size="592,1" Color="EspionagePopup_Body" Alpha="0.5"/>
       <Button ID="SRChoice" Offset="12,8" Size="592,26">
         <Label ID="SRLabel" Anchor="L,C" Style="FontNormal16" Color="EspionagePopup_Header" String="LOC_SR_DRAFT_REPEAT"/>
         <CheckBox ID="SRCheck" Anchor="R,C" Style="CheckBoxPopupControl" Size="22,22"/>

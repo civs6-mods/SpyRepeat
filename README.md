@@ -4,9 +4,9 @@
 
 为《文明 VI》的间谍重复执行已安排的任务，减少每隔几回合重新点选的操作。每名间谍独立控制，支持进攻任务和指定区域的反间谍续期；需要处理晋升、逃跑或目标变化时暂停。
 
-**当前版本：0.2.3，单机预览版。源码已公开，尚未发布到 Steam 创意工坊。** 只使用 Lua/XML 和游戏原生 UI 资源，不修改 DLL。
+**当前版本：0.2.4，单机预览版。源码已公开，尚未发布到 Steam 创意工坊。** 只使用 Lua/XML 和游戏原生 UI 资源，不修改 DLL。
 
-![原生任务简报中的自动重复选项](docs/screenshots/mission-briefing.png)
+![原生任务简报中的自动重复选项](docs/screenshots/briefing-divider-0.2.4.png)
 
 ## 安装
 
@@ -56,7 +56,7 @@ python scripts/test.py
 python scripts/package.py
 ```
 
-生成 `dist/SpyRepeat-0.2.3.zip`，解压后的 `SpyRepeat` 文件夹可直接放入游戏 `Mods` 目录。
+生成 `dist/SpyRepeat-0.2.4.zip`，解压后的 `SpyRepeat` 文件夹可直接放入游戏 `Mods` 目录。
 
 | 目录 | 内容 |
 | --- | --- |
